@@ -72,8 +72,9 @@ nav li a:hover {
 #connect {
   background-image: url(http://i.imgur.com/ZwBztaG.jpg);
 }
-#selfpic {
-  height: auto;
+#connect img {
+  height: 20em;
   border: solid #7af 5px;
   border-radius: 8px;
+  margin: auto 0;
 }
