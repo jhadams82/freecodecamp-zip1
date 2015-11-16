@@ -1,7 +1,7 @@
 html, body,
 .container,
 .wrapper,
-  .wrapper section {
+.wrapper section {
   height: 100%;
 }
 
@@ -32,33 +32,37 @@ nav {
   background: #222;
   padding: 10px 20px;
 }
+
 nav li {
   display: inline;
   margin: auto 1.5em;
   position: relative;
 }
+
 nav li a {
   color: #7af;
   font-family: 'Oswald', Arial;
   font-weight: bold;
   font-size: 1.5em;
 }
+
 nav li a:hover {
   text-decoration: none;
 }
 
 /*   ABOUT   */
 #about {
-  background-image: url(http://i.imgur.com/nfTTaxz.jpg);
+  background-image: url("http://i.imgur.com/nfTTaxz.jpg");
 }
 
 /*   EXAMPLES   */
 #examples {
-  background-image: url(http://i.imgur.com/j6uslPn.jpg);
+  background-image: url("http://i.imgur.com/j6uslPn.jpg");
 }
+
 .thumb {
-    position:relative;
-    overflow:hidden;
+    position: relative;
+    overflow: hidden;
     background: rgba(55, 55, 55, 0.9);
     border: none;
     border-radius: 10px;
@@ -70,8 +74,9 @@ nav li a:hover {
 
 /*   CONNECT   */
 #connect {
-  background-image: url(http://i.imgur.com/ZwBztaG.jpg);
+  background-image: url("http://i.imgur.com/ZwBztaG.jpg");
 }
+
 #connect img {
   height: 20em;
   border: solid #7af 5px;
