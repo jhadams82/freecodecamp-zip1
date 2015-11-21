@@ -39,3 +39,5 @@ Thumbs.db
 #    Custom     #
 #################
 backgrounds/*
+*.png
+*.jpg

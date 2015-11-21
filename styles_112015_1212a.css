@@ -1,0 +1,102 @@
+html, body,
+.container,
+.wrapper,
+.wrapper section {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lora', Serif;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', Sans;
+  padding: 0;
+  margin: .4em;
+}
+
+.wrapper section {
+  height: auto;
+  min-height: 680px;
+  padding: 10% 0;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*   NAVBAR   */
+nav {
+  background: #222;
+  padding: 10px 20px;
+}
+
+nav li {
+  display: inline;
+  margin: auto 1.5em;
+  position: relative;
+}
+
+nav li a {
+  color: #7af;
+  font-family: 'Oswald', Arial;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
+/*   ABOUT   */
+#about {
+  background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/desk1_zpsqsz6wdzj.jpg");
+}
+
+/*   EXAMPLES   */
+#examples {
+  background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/moab2_zpsby1zf5zv.jpg");
+}
+
+.thumb {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background: rgba(55, 55, 55, 0.9);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 18.75em;
+    width: 25em;
+    padding: 5em 0;
+    margin: 5em;
+    vertical-align: middle;
+}
+
+/*   CONNECT   */
+#connect {
+  background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/nash2_zpsbyzz5izh.jpg");
+}
+
+#connect img {
+  height: 20em;
+  border: solid #555 5px;
+  border-radius: 8px;
+  margin: auto 0;
+}
+
+.connect-btn {
+  background: rgba(55, 55, 55, 0.9);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 60%;
+    padding: .1em 0;
+    margin: 1em auto;
+}
