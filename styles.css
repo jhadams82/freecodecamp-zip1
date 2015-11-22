@@ -59,7 +59,8 @@ nav li a:hover {
 
 /*   EXAMPLES   */
 #examples {
-  background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/moab2_zpsby1zf5zv.jpg");
+  background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/moab2_zpspzyyaw5x.jpg");
+  text-align: center;
 }
 
 .thumb {
@@ -71,16 +72,23 @@ nav li a:hover {
     border-radius: 10px;
     text-align: center;
     color: white;
-    height: 18.75em;
-    width: 25em;
+    height: 13.5em;
+    width: 18em;
     padding: 5em 0;
-    margin: 5em;
+    margin: 2em;
     vertical-align: middle;
 }
 
 /*   CONNECT   */
 #connect {
   background-image: url("http://i1073.photobucket.com/albums/w381/jhadams82/nash2_zpsbyzz5izh.jpg");
+  text-align: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 #connect img {
@@ -92,11 +100,11 @@ nav li a:hover {
 
 .connect-btn {
   background: rgba(55, 55, 55, 0.9);
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    width: 60%;
-    padding: .1em 0;
-    margin: 1em auto;
+  border: none;
+  border-radius: .75em;
+  text-align: center;
+  color: white;
+  width: 15em;
+  padding: .1em 0;
+  margin: 1em auto;
 }
